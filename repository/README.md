@@ -1,20 +1,6 @@
 
-
-<p align="center" style="color:blue">
-  <a href="https://mp.weixin.qq.com/s/ePhaYezFblgt0NgbvtWqww" target="_blank">
-    <h2 align="center">
-        网站内容持续更新中...
-    </h2>
-  </a>
-</p>
-
-<!-- <p>
-  <br>
-</p> -->
-
-
 <p align="center">
-    <a href="https://mp.weixin.qq.com/s/ePhaYezFblgt0NgbvtWqww" target="_blank">
+    <a href="https://www.r2coding.com/" target="_blank">
         <img src="https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/r2coding_logo_index.15y992dieibg.png" width=""/>
     </a>
 </p>
