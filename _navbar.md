@@ -1,4 +1,4 @@
-- [<span class="iconfont icon-icon_fabu"></span> 首页](/README.md)
+- [首页](/README.md)
   - [📌 C](README?id=📌-c)
   - [☁️ C++](README?id=☁%ef%b8%8f-c)
   - [☕️ Java](README?id=☕%ef%b8%8f-java)
@@ -12,10 +12,19 @@
   - [🥼 前端学习](README?id=🥼-前端学习)
   - [🔨 工具 COOL](README?id=🔨-工具-cool)
   - [🎅 赞赏作者](README?id=🎅-赞赏作者)
-- [<span class="iconfont icon-csdn"></span> CSDN](https://wugenqiang.blog.csdn.net/)
-- [<span class="iconfont icon-wodeguanzhu"></span> 关于本站](关于/)
-- [⛷ 生信交流群](https://mp.weixin.qq.com/s/rWAl_jRxay-IVUM1S_19LA)
-- [⛷ 其他](zh-cn/README.md)
+- [CSDN](https://wugenqiang.blog.csdn.net/)
+- [关于本站](关于/)
+- [生信交流群](https://mp.weixin.qq.com/s/rWAl_jRxay-IVUM1S_19LA)
+- 刷题
+  - [**Leetcode**](https://leetcode-cn.com/)
+  - [**AcWing**](https://www.acwing.com/)
+  - [**Codeforces**](https://codeforces.com/)
+  - [**PTA**](https://pintia.cn/)
+  - [**HDOJ**](http://acm.hdu.edu.cn/)
+  - [**POJ**](http://poj.org/)
+  - [**牛客网**](https://www.nowcoder.com/)
+  - [**洛谷**](https://www.luogu.com.cn/)
+- [⛷ 其他](zh-cn/guide.md)
 
 
 

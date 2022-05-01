@@ -191,12 +191,12 @@ $$
 ## 积分符号
 
 ```tex
-$$\int,\iint,\iiint,\oint$$
+$$\int,\iint,\iiint,\oint $$
 ```
 
 
 $$
-\int,\iint,\iiint,\oint
+\int,\iint,\iiint,\oint, \oiint, \oiiint
 $$
 
 ```tex
@@ -232,7 +232,7 @@ $$
 ```
 
 $$
-\infty,\partial,∂,\nabla,\propto, ^{\circ}
+\infty,\partial,∂,\nabla,\propto, \degree
 $$
 
 >`Tex` 中支持 `\degree` 来表示度，在 `MathJax` 中好像不支持，这里使用的是 `^{\circ}` 来代替
