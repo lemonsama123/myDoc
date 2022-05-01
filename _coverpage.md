@@ -1,10 +1,34 @@
+![icon](https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/images/icon.png)
 
-![logo](https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/r2coding_logo_cover.7hb2s8l3eqk0.png)
+## AI & CS & SE
+
+- 做一个眼中有梁木的人，记录一路走来学习的计算机专业知识 ，力求完美构建 AI & CS & SE 知识体系
+
+<img src="https://img.shields.io/badge/version-v2.0.0-green.svg" data-origin="https://img.shields.io/badge/version-v2.0.0-green.svg" alt=""> 
+<img src="https://img.shields.io/github/stars/wugenqiang/NoteBook" data-origin="https://img.shields.io/github/stars/wugenqiang/NoteBook" alt=""> 
+<img src="https://img.shields.io/github/forks/wugenqiang/NoteBook" data-origin="https://img.shields.io/github/forks/wugenqiang/NoteBook" alt="">
+<img src="https://img.shields.io/github/license/wugenqiang/NoteBook" data-origin="https://img.shields.io/github/license/wugenqiang/NoteBook" alt="">
+
+<br>
+
+<br>
+
+<span id="busuanzi_container_site_pv" style='display:none'>
+    👀 本站总访问量：<span id="busuanzi_value_site_pv"></span> 次
+</span>
+<span id="busuanzi_container_site_uv" style='display:none'>
+    | 🚴‍♂️ 本站总访客数：<span id="busuanzi_value_site_uv"></span> 人
+</span>
+
+<br>
+
+[GitHub](https://github.com/wugenqiang/NoteBook)
+[开始阅读](/README.md)
 
 
-- 本站取名为 **r2coding**，即 **Road To Coding**，意为编程自学之路，是自学编程以来所用资源和分享内容的大聚合。旨在为编程自学者提供一系列清晰的学习路线、靠谱的资源、高效的工具、和务实的文章，方便自己也方便他人。**网站内容会持续保持更新，欢迎收藏品鉴！**
 
-## 记住，一定要善用 `Ctrl+F` 哦！
+<!-- 背景色 -->
+![color](#fff)
 
-[**联系作者**](https://github.com/rd2coding/Road2Coding)
-[**开启阅读**](README.md)
+
+
