@@ -7,28 +7,122 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-</head>
-
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"></head>
 <body>
   <div id="app">Loading...</div>
   <script>
     window.$docsify = {
+      plugins: [
+        function (hook) {
+          // 支持$和$$
+          hook.doneEach(function () {
+            if (typeof MathJax !== "undefined") {
+              MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+            }
+          });
+          // 支持$``$
+          hook.beforeEach(function (content) {
+            return content.replace(/\$`.*`\$/g, function (a) {
+              return a.replace("`", "").replace("`", "");
+            });
+          });
+          // 支持```math```块
+          hook.beforeEach(function (content) {
+            return content.replace("\r\n", "\n");
+          });
+          hook.beforeEach(function (content) {
+            return content.replace("\r", "\n");
+          });
+          hook.beforeEach(function (content) {
+            c = content.replace(
+              /```math\n[^`]*\n```/g,
+              function (a) {
+                return a
+                  .replace("```math", "\$\$\$\$")
+                  .replace("```", "\$\$\$\$");
+              }
+            );
+            return c
+          });
+        },
+      ],
       name: '',
       repo: '',
       coverpage: true,
       loadNavbar: true,
       loadSidebar: true,
-      subMaxLevel: 2,
+      subMaxLevel: 3,
       repo: 'https://github.com/lemonsama123/myDoc',
-      logo: 'https://s2loli.net/2022/04/30/IjGfH5ZuXMhiVCL.png'
+      logo: 'https://s2loli.net/2022/04/30/IjGfH5ZuXMhiVCL.png',
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: [], // or 'auto'
+        placeholder: 'Type to search',
+
+        // 支持本地化
+        placeholder: {
+          '/zh-cn/': '搜索',
+          '/': 'Type to search'
+        },
+
+        noData: 'No Results!',
+
+        // 支持本地化
+        noData: {
+          '/zh-cn/': '找不到结果',
+          '/': 'No Results'
+        },
+
+        // 搜索标题的最大层级, 1 - 6
+        depth: 2,
+
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+
+        // 避免搜索索引冲突
+        // 同一域下的多个网站之间
+        namespace: 'website-1',
+
+        // 使用不同的索引作为路径前缀（namespaces）
+        // 注意：仅适用于 paths: 'auto' 模式
+        //
+        // 初始化索引时，我们从侧边栏查找第一个路径
+        // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+        pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+
+        // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
+        // 匹配到的字符串将被用来识别索引
+        pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      }
     }
   </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processClass: 'math',
+      processEscapes: true
+    },
+    TeX: {
+    equationNumbers: { autoNumber: ['AMS'], useLabelIds: true },
+    extensions: ['extpfeil.js', 'mediawiki-texvc.js'],
+    Macros: {bm: "\\boldsymbol"}
+    },
+    'HTML-CSS': { linebreaks: { automatic: true } },
+    'preview-HTML': { linebreaks: { automatic: true } },
+    SVG: { linebreaks: { automatic: true } }
+    });
+</script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-cpp.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 
 </html>
