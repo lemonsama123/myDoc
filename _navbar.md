@@ -24,9 +24,7 @@
   - [**POJ**](http://poj.org/)
   - [**牛客网**](https://www.nowcoder.com/)
   - [**洛谷**](https://www.luogu.com.cn/)
-- [⛷ 其他](zh-cn/guide.md)
-
-
-
-
-
+- [**R2Code**](R2Code/README.md)
+  - [**R2Code**](https://www.r2coding.com/#/)
+  - [**鱼皮 - 编程学习路线**](https://luxian.yupi.icu/#/)
+  - [**鱼皮 - 编程资源网站**](https://www.code-nav.cn/)
