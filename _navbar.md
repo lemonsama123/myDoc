@@ -28,3 +28,6 @@
   - [**R2Code**](https://www.r2coding.com/#/)
   - [**鱼皮 - 编程学习路线**](https://luxian.yupi.icu/#/)
   - [**鱼皮 - 编程资源网站**](https://www.code-nav.cn/)
+  - [**CS-Notes**](http://www.cyc2018.xyz/)
+  - [**现代 JavaScript 教程**](https://zh.javascript.info/)
+
