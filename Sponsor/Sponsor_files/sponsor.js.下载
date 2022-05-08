@@ -3,7 +3,7 @@ const qbox = bd.querySelector('#QRBox')
 const mbox = bd.querySelector('#MainBox')
 const dbox = bd.querySelector('#donateBox')
 
-//const qqr = 'https://wugenqiang.js.org/images/02/QQQR.png'
+/*const qqr = 'https://wugenqiang.js.org/images/02/QQQR.png'*/
 const aqr = 'https://s2.loli.net/2022/05/08/WHrDzastfhBbVgA.jpg'
 const wqr = 'https://s2.loli.net/2022/05/08/Q4dEnlrc8pVsbjB.jpg'
 
