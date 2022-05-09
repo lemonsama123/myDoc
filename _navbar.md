@@ -31,4 +31,4 @@
   - [**CS-Notes**](http://www.cyc2018.xyz/)
   - [**现代 JavaScript 教程**](https://zh.javascript.info/)
   - [**Lemon**](https://lemonsama123.gitee.io/)
-  - [**NoteBook**]([NoteBook/README.md](https://notebook.js.org/#/))
+  - [**NoteBook**](https://notebook.js.org/#/)
