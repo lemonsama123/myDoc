@@ -93,15 +93,3 @@
 
 ## 设计模式
 
-<!-- tabs:start -->
-
-#### **C++**
-
-<iframe src="test.html" style="overflow-x:hidden;overflow-y:hidden; min-height:1000px; width:100%;"  frameborder="0" scrolling="no"></iframe>
-
-#### **Java**
-
-<iframe src="test.html" style="overflow-x:hidden;overflow-y:hidden; min-height:1000px; width:100%;"  frameborder="0" scrolling="no"></iframe>
-
-<!-- tabs:end -->
-
