@@ -31,9 +31,11 @@
 * [**数据库基础知识**](C/C-Code.md)
 * [**SQL 语言**](C/C-Code.md)
 * [**JDBC**](C/C-Code.md)
-* [**MySQL**](C/C-Code.md)
+* **MySQL**
+  * [**MySQL 安装**](C/C-Code.md)
+  * [**MySQL 学习笔记**](C/C-Code.md)
+  * [**MySQL 调优**](C/C-Code.md)
 * [**Redis**](C/C-Code.md)
-* [**MySQL 调优**](C/C-Code.md)
 
 ## JavaWeb
 
@@ -68,6 +70,11 @@
 
 ## 操作系统
 
+* **Linux**
+  * [**Linux 学习笔记**](C/C-Code.md)
+  * [**Linux 常用操作**](C/C-Code.md)
+  * [**Linux 常用软件安装**](C/C-Code.md)
+
 ## 数据结构 & 算法
 
 * [**数学基础**](C/C-Code.md)
@@ -92,4 +99,3 @@
 ## Python 
 
 ## 设计模式
-
