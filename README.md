@@ -32,9 +32,9 @@
 * [**SQL 语言**](C/C-Code.md)
 * [**JDBC**](C/C-Code.md)
 * **MySQL**
-  * [**MySQL 安装**](C/C-Code.md)
-  * [**MySQL 学习笔记**](C/C-Code.md)
-  * [**MySQL 调优**](C/C-Code.md)
+  * [MySQL 安装](C/C-Code.md)
+  * [MySQL 学习笔记](C/C-Code.md)
+  * [MySQL 调优](C/C-Code.md)
 * [**Redis**](C/C-Code.md)
 
 ## JavaWeb
@@ -71,9 +71,9 @@
 ## 操作系统
 
 * **Linux**
-  * [**Linux 学习笔记**](C/C-Code.md)
-  * [**Linux 常用操作**](C/C-Code.md)
-  * [**Linux 常用软件安装**](C/C-Code.md)
+  * [Linux 学习笔记](C/C-Code.md)
+  * [Linux 常用操作](C/C-Code.md)
+  * [Linux 常用软件安装](C/C-Code.md)
 
 ## 数据结构 & 算法
 
