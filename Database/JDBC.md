@@ -114,22 +114,16 @@
 - **几种常用数据库的 JDBC URL**
 
   - MySQL的连接URL编写方式：
-
-    - jdbc:mysql://主机名称:mysql服务端口号/数据库名称?参数=值&参数=值
-    - jdbc:mysql://localhost:3306/atguigu
-    - jdbc:mysql://localhost:3306/atguigu**?useUnicode=true&characterEncoding=utf8**（如果JDBC程序与服务器端的字符集不一致，会导致乱码，那么可以通过参数指定服务器端的字符集）
-    - jdbc:mysql://localhost:3306/atguigu?user=root&password=123456
-
+    - `jdbc:mysql://主机名称:mysql服务端口号/数据库名称?参数=值&参数=值`
+    - `jdbc:mysql://localhost:3306/atguigu`
+    - `jdbc:mysql://localhost:3306/atguigu?useUnicode=true&characterEncoding=utf8`（如果JDBC程序与服务器端的字符集不一致，会导致乱码，那么可以通过参数指定服务器端的字符集）
+    - ``jdbc:mysql://localhost:3306/atguigu?user=root&password=123456``
   - Oracle 9i的连接URL编写方式：
-
-    - jdbc:oracle:thin:@主机名称:oracle服务端口号:数据库名称
-    - jdbc:oracle:thin:@localhost:1521:atguigu
-
+    - ``jdbc:oracle:thin:@主机名称:oracle服务端口号:数据库名称``
+    - ``jdbc:oracle:thin:@localhost:1521:atguigu``
   - SQLServer的连接URL编写方式：
-
-    - jdbc:sqlserver://主机名称:sqlserver服务端口号:DatabaseName=数据库名称
-
-    - jdbc:sqlserver://localhost:1433:DatabaseName=atguigu
+    - ``jdbc:sqlserver://主机名称:sqlserver服务端口号:DatabaseName=数据库名称``
+    - ``jdbc:sqlserver://localhost:1433:DatabaseName=atguigu``
 
 ### 2.3 要素三：用户名和密码
 
