@@ -28,14 +28,14 @@
 
 ## 数据库 & JDBC
 
-* [**数据库基础知识**](C/C-Code.md)
-* [**SQL 语言**](C/C-Code.md)
-* [**JDBC**](C/C-Code.md)
+* [**数据库基础知识**](Database/DBBase.md)
+* [**SQL 语言**](Database/SQL.md)
+* [**JDBC**](Database/JDBC.md)
 * **MySQL**
-  * [MySQL 安装](C/C-Code.md)
-  * [MySQL 学习笔记](C/C-Code.md)
+  * [MySQL 安装](Database/MySQLInstall.md)
+  * [MySQL 学习笔记](Database/MySQLNote.md)
   * [MySQL 调优](C/C-Code.md)
-* [**Redis**](C/C-Code.md)
+* [**Redis**](Database/Redis.md)
 
 ## JavaWeb
 
