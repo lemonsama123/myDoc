@@ -32,13 +32,13 @@
 
 - 有了JDBC，Java程序访问数据库时是这样的：
 
-![数据库连接2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/ToVU5szdajHPymG.png)
+<div align=center><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/ToVU5szdajHPymG.png" alt="数据库连接2"/></div>
 
 ***
 
 - 总结如下：
 
-![综述](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/1566741692804.png)
+<div align=center><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/1566741692804.png" alt="综述"/></div>
 
 ### 1.4 JDBC体系结构
 
@@ -52,7 +52,7 @@
 
 ### 1.5 JDBC程序编写步骤
 
-![JDBC程序编写步骤](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/nETzgX3Bixos9mA.png)
+<div align=center><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/nETzgX3Bixos9mA.png" alt="JDBC程序编写步骤"/></div>
 
 > 补充：ODBC(**Open Database Connectivity**，开放式数据库连接)，是微软在Windows平台下推出的。使用者在程序中只需要调用ODBC API，由 ODBC 驱动程序将调用转换成为对特定的数据库的调用请求。
 
@@ -68,11 +68,13 @@
   - Oracle的驱动：**oracle.jdbc.driver.OracleDriver**
   - mySql的驱动： **com.mysql.jdbc.Driver**
 
-![Driver1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/vpaMFAdsGKX8nuL.png)
+<div align=center><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/nETzgX3Bixos9mA.png" alt="Driver1"/></div>
 
-![Driver2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/K27ovu5h8bGN9CD.png)
+<div align=center><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/K27ovu5h8bGN9CD.png" alt="Driver2"/></div>
 
 - 将上述jar包拷贝到Java工程的一个目录中，习惯上新建一个lib文件夹。
+
+
 
  ![添加驱动1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/RkvQcl6ejISFsYd.png)
 
