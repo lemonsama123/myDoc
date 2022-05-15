@@ -75,12 +75,11 @@
 - 将上述jar包拷贝到Java工程的一个目录中，习惯上新建一个lib文件夹。
 
 
-
- ![添加驱动1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/RkvQcl6ejISFsYd.png)
+<div align=center><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/RkvQcl6ejISFsYd.png" alt="添加驱动1"/></div>
 
 在驱动jar上右键-->Build Path-->Add to Build Path
 
- ![添加驱动2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/pLoYyRkBTshZjnt.png)
+<div align=center><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/pLoYyRkBTshZjnt.png" alt="添加驱动2"/></div>
 
 注意：如果是Dynamic Web Project（动态的web项目）话，则是把驱动jar放到WebContent（有的开发工具叫WebRoot）目录中的WEB-INF目录中的lib目录下即可
 
@@ -97,7 +96,7 @@
 
   - 通常不用显式调用 DriverManager 类的 registerDriver() 方法来注册驱动程序类的实例，因为 Driver 接口的驱动程序类**都**包含了静态代码块，在这个静态代码块中，会调用 DriverManager.registerDriver() 方法来注册自身的一个实例。下图是MySQL的Driver实现类的源码：
 
-    ![JDBC驱动加载与注册](https://s2.loli.net/2022/01/19/ZIf8zMEHaieFnOp.png)
+    ![JDBC驱动加载与注册](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/ZIf8zMEHaieFnOp.png)
 
 ### 2.2 要素二：URL
 
@@ -111,7 +110,7 @@
 
 - 举例：
 
-  ![URL](https://s2.loli.net/2022/01/19/n6HEUZ3avF4QVBD.png)
+  ![URL](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/n6HEUZ3avF4QVBD.png)
 
 - **几种常用数据库的 JDBC URL**
 
@@ -320,7 +319,7 @@ driverClass=com.mysql.jdbc.Driver
   - PrepatedStatement：SQL 语句被预编译并存储在此对象中，可以使用此对象多次高效地执行该语句。
   - CallableStatement：用于执行 SQL 存储过程
 
-  ![Statement](https://s2.loli.net/2022/01/19/mzY3eBv9taolKkq.png)
+  ![Statement](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/mzY3eBv9taolKkq.png)
 
 ### 3.2 使用Statement操作数据表的弊端
 
@@ -614,7 +613,7 @@ public class StatementTest {
   - getString()
   - …
 
-  ![对象关系映射1](https://gitee.com/lemonsama123/image/raw/master/image/1555580152530.png)
+  ![对象关系映射1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/1555580152530.png)
 
 #### 3.4.2 ResultSetMetaData
 
@@ -631,7 +630,7 @@ public class StatementTest {
 
   -  isAutoIncrement(int column)：指示是否自动为指定列进行编号，这样这些列仍然是只读的。 
 
-![对象关系映射2](https://s2.loli.net/2022/01/19/SKJbgNXz6Zu1kYw.png)
+![对象关系映射2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/SKJbgNXz6Zu1kYw.png)
 
 **问题1：得到结果集后, 如何知道该结果集中有哪些列 ？ 列名是什么？**
 
@@ -643,7 +642,7 @@ public class StatementTest {
 2. **获取 ResultSet 中有多少列**：调用 ResultSetMetaData 的 getColumnCount() 方法
 3. **获取 ResultSet 每一列的列的别名是什么**：调用 ResultSetMetaData 的getColumnLabel() 方法
 
-![对象关系映射3](https://s2.loli.net/2022/01/19/RC4TveSbfwG9FhO.png)
+![对象关系映射3](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/RC4TveSbfwG9FhO.png)
 
 ### 3.5 资源的释放
 
@@ -679,17 +678,17 @@ public class StatementTest {
 
 **练习题1：从控制台向数据库的表customers中插入一条数据，表结构如下：**
 
-![练习1](https://s2.loli.net/2022/01/19/Tzmkn4lINJ1foau.png)
+![练习1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/Tzmkn4lINJ1foau.png)
 
 
 
 **练习题2：创立数据库表 examstudent，表结构如下：**
 
-![练习2](https://s2.loli.net/2022/01/19/DRKhfXQmE5dokYu.png)
+![练习2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/DRKhfXQmE5dokYu.png)
 
 向数据表中添加如下数据：
 
-![练习3](https://s2.loli.net/2022/01/19/nH4OuvKQy52rais.png)
+![练习3](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/nH4OuvKQy52rais.png)
 
 **代码实现1：插入一个新的student 信息**
 
@@ -706,7 +705,7 @@ Grade:
 
 **代码实现2：在 eclipse中建立 java 程序：输入身份证号或准考证号可以查询到学生的基本信息。结果如下：**
 
-![练习4](https://s2.loli.net/2022/01/19/yo324SxCJEO6irH.png)
+![练习4](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/yo324SxCJEO6irH.png)
 
 **代码实现3：完成学生信息的删除功能**
 
@@ -725,7 +724,7 @@ Grade:
 
 - MySQL的四种BLOB类型(除了在存储的最大信息量上不同外，他们是等同的)
 
-![BLOB类型](https://s2.loli.net/2022/01/19/PI65jSzuXc9eHFq.png)
+![BLOB类型](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/PI65jSzuXc9eHFq.png)
 
 - 实际使用中根据需要存入的数据大小定义不同的BLOB类型。
 - 需要注意的是：如果存储的文件过大，数据库的性能会下降。
@@ -1091,7 +1090,7 @@ public void update(Connection conn ,String sql, Object... args) {
 
 - 数据库提供的4种事务隔离级别：
 
-  ![事务隔离级别](https://s2.loli.net/2022/01/19/pI8bNRlXAuL4GVd.png)
+  ![事务隔离级别](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/pI8bNRlXAuL4GVd.png)
 
 - Oracle 支持的 2 种事务隔离级别：**READ COMMITED**, SERIALIZABLE。 Oracle 默认的事务隔离级别为: **READ COMMITED** 。
 
@@ -1148,11 +1147,11 @@ public void update(Connection conn ,String sql, Object... args) {
 - 作用：为了实现功能的模块化，更有利于代码的维护和升级。
 - 下面是尚硅谷JavaWeb阶段书城项目中DAO使用的体现：
 
-![DAO1](https://s2.loli.net/2022/01/19/GS2moyuDjcUnzVT.png)
+![DAO1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/GS2moyuDjcUnzVT.png)
 
 - 层次结构：
 
-![DAO2](https://s2.loli.net/2022/01/19/F6gdkp32wHq1ZjM.png)
+![DAO2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/F6gdkp32wHq1ZjM.png)
 
 ### 【BaseDAO.java】
 
@@ -1602,11 +1601,11 @@ public class User {
 - **数据库连接池**负责分配、管理和释放数据库连接，它**允许应用程序重复使用一个现有的数据库连接，而不是重新建立一个**。
 - 数据库连接池在初始化时将创建一定数量的数据库连接放到连接池中，这些数据库连接的数量是由**最小数据库连接数来设定**的。无论这些数据库连接是否被使用，连接池都将一直保证至少拥有这么多的连接数量。连接池的**最大数据库连接数量**限定了这个连接池能占有的最大连接数，当应用程序向连接池请求的连接数超过最大连接数量时，这些请求将被加入到等待队列中。
 
-![数据库连接池1](https://s2.loli.net/2022/01/19/K3atrlExUsi5qY2.png)
+![数据库连接池1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/K3atrlExUsi5qY2.png)
 
 - **工作原理：**
 
-![数据库连接池2](https://s2.loli.net/2022/01/19/DaJTGWzAE2ZXHF8.png)
+![数据库连接池2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/DaJTGWzAE2ZXHF8.png)
 
 - **数据库连接池技术的优点**
 
@@ -1874,7 +1873,7 @@ filters=wall
 
 ![Apache-DBUtils1](https://s2.loli.net/2022/01/19/5GeKOtcECDS37kl.png)
 
-![Apache-DBUtils2](https://s2.loli.net/2022/01/19/e2LbaOxXdA93tVB.png)
+![Apache-DBUtils2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/e2LbaOxXdA93tVB.png)
 
 
 
