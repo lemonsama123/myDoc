@@ -6,7 +6,7 @@
 
 - 持久化的主要应用是将内存中的数据存储在关系型数据库中，当然也可以存储在磁盘文件、XML数据文件中。
 
-  ![ 数据的持久化](https://s2.loli.net/2022/01/19/fwMdB6rFyhVUspW.png) 
+<div align=center><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/fwMdB6rFyhVUspW.png" alt="数据的持久化"/></div>
 
 ### 1.2 Java中的数据存储技术
 
@@ -25,20 +25,21 @@
 - JDBC的目标是使Java程序员使用JDBC可以连接任何**提供了JDBC驱动程序**的数据库系统，这样就使得程序员无需对特定的数据库系统的特点有过多的了解，从而大大简化和加快了开发过程。
 - 如果没有JDBC，那么Java程序访问数据库时是这样的：
 
-![数据库连接1](https://s2.loli.net/2022/01/19/du4twmUyY9ZGn5r.png)
+<div align=center> ![数据库连接1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/du4twmUyY9ZGn5r.png) </div>
+
 
 ***
 
 - 有了JDBC，Java程序访问数据库时是这样的：
 
 
-![数据库连接2](https://s2.loli.net/2022/01/19/ToVU5szdajHPymG.png)
+![数据库连接2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/ToVU5szdajHPymG.png)
 
 ***
 
 - 总结如下：
 
-![综述](https://gitee.com/lemonsama123/image/raw/master/image/1566741692804.png)
+![综述](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/1566741692804.png)
 
 ### 1.4 JDBC体系结构
 
@@ -52,7 +53,7 @@
 
 ### 1.5 JDBC程序编写步骤
 
-![JDBC程序编写步骤](https://s2.loli.net/2022/01/19/nETzgX3Bixos9mA.png)
+![JDBC程序编写步骤](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/nETzgX3Bixos9mA.png)
 
 > 补充：ODBC(**Open Database Connectivity**，开放式数据库连接)，是微软在Windows平台下推出的。使用者在程序中只需要调用ODBC API，由 ODBC 驱动程序将调用转换成为对特定的数据库的调用请求。
 
@@ -68,21 +69,21 @@
   - Oracle的驱动：**oracle.jdbc.driver.OracleDriver**
   - mySql的驱动： **com.mysql.jdbc.Driver**
 
-![Driver1](https://s2.loli.net/2022/01/19/vpaMFAdsGKX8nuL.png)
+![Driver1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/vpaMFAdsGKX8nuL.png)
 
-![Driver2](https://s2.loli.net/2022/01/19/K27ovu5h8bGN9CD.png)
+![Driver2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/K27ovu5h8bGN9CD.png)
 
 - 将上述jar包拷贝到Java工程的一个目录中，习惯上新建一个lib文件夹。
 
- ![添加驱动1](https://s2.loli.net/2022/01/19/RkvQcl6ejISFsYd.png)
+ ![添加驱动1](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/RkvQcl6ejISFsYd.png)
 
 在驱动jar上右键-->Build Path-->Add to Build Path
 
- ![添加驱动2](https://s2.loli.net/2022/01/19/pLoYyRkBTshZjnt.png)
+ ![添加驱动2](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/pLoYyRkBTshZjnt.png)
 
 注意：如果是Dynamic Web Project（动态的web项目）话，则是把驱动jar放到WebContent（有的开发工具叫WebRoot）目录中的WEB-INF目录中的lib目录下即可
 
- ![添加驱动3](https://s2.loli.net/2022/01/19/4bsjXQyadlDnKTV.png)
+ ![添加驱动3](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/4bsjXQyadlDnKTV.png)
 
 #### 2.1.2 加载与注册JDBC驱动
 
