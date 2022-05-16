@@ -6,7 +6,7 @@
 
 - 持久化的主要应用是将内存中的数据存储在关系型数据库中，当然也可以存储在磁盘文件、XML数据文件中。
 
-![1231](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/fwMdB6rFyhVUspW.png)
+![123](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/fwMdB6rFyhVUspW.png)
 
 ### 1.2 Java中的数据存储技术
 
