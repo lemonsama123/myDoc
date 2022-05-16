@@ -6,21 +6,21 @@
 
 ## Java基础
 
-* [**基础**](Java/Base/base.md)
-* [**常用核心类**](Java/Base/commonClass.md)
-* [**Java 数据结构（集合）**](Java/Base/collection.md)
+* [**基础**](docs/Java/Base/base.md)
+* [**常用核心类**](docs/Java/Base/commonClass.md)
+* [**Java 数据结构（集合）**](docs/Java/Base/collection.md)
 * **IO & NIO & 网络编程**
-  * [IO](Java/Base/IO.md)
-  * [NIO](Java/Base/NIO.md)
-  * [网络编程](Java/Base/NetworkProgramming.md)
-* [**并发编程（多线程）**](Java/Base/concurrent.md)
-* [**反射**](Java/Base/reflection.md)
+  * [IO](docs/Java/Base/IO.md)
+  * [NIO](docs/Java/Base/NIO.md)
+  * [网络编程](docs/Java/Base/NetworkProgramming.md)
+* [**并发编程（多线程）**](docs/Java/Base/concurrent.md)
+* [**反射**](docs/Java/Base/reflection.md)
 * **新特性**
-  * [Java8 新特性](Java/Base/newFeatures/Java8.md)
-  * [Java9 新特性](Java/Base/newFeatures/Java9.md)
-  * [Java10 新特性](Java/Base/newFeatures/Java10.md)
-  * [Java11 新特性](Java/Base/newFeatures/Java11.md)
-  * [Java17 新特性](Java/Base/newFeatures/Java12.md)
+  * [Java8 新特性](docs/Java/Base/newFeatures/Java8.md)
+  * [Java9 新特性](docs/Java/Base/newFeatures/Java9.md)
+  * [Java10 新特性](docs/docs/Java/Base/newFeatures/Java10.md)
+  * [Java11 新特性](docs/Java/Base/newFeatures/Java11.md)
+  * [Java17 新特性](docs/Java/Base/newFeatures/Java12.md)
 
 ## JVM
 
@@ -28,14 +28,14 @@
 
 ## 数据库 & JDBC
 
-* [**数据库基础知识**](Database/DBBase.md)
-* [**SQL 语言**](Database/SQL.md)
-* [**JDBC**](Database/JDBC.md)
+* [**数据库基础知识**](docs/Database/DBBase.md)
+* [**SQL 语言**](docs/Database/SQL.md)
+* [**JDBC**](docs/Database/JDBC.md)
 * **MySQL**
-  * [MySQL 安装](Database/MySQLInstall.md)
-  * [MySQL 学习笔记](Database/MySQLNote.md)
-  * [MySQL 调优](C/C-Code.md)
-* [**Redis**](Database/Redis.md)
+  * [MySQL 安装](docs/Database/MySQLInstall.md)
+  * [MySQL 学习笔记](docs/Database/MySQLNote.md)
+  * [MySQL 调优](docs/C/C-Code.md)
+* [**Redis**](docs/Database/Redis.md)
 
 ## JavaWeb
 
@@ -85,8 +85,8 @@
 
 ## VSCode
 
-* [**VSCode 插件推荐**](Java/Base/newFeatures/Java12.md)
-* [**VSCode 配置C++运行环境**](Java/Base/newFeatures/Java12.md)
+* [**VSCode 插件推荐**](docs/Java/Base/newFeatures/Java12.md)
+* [**VSCode 配置C++运行环境**](docs/Java/Base/newFeatures/Java12.md)
 
 ## IDEA
 * [**IDEA 基本配置**](Java/Base/newFeatures/Java12.md)
