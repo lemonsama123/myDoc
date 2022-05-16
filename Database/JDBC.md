@@ -1603,7 +1603,7 @@ public class User {
 - **数据库连接池**负责分配、管理和释放数据库连接，它**允许应用程序重复使用一个现有的数据库连接，而不是重新建立一个**。
 - 数据库连接池在初始化时将创建一定数量的数据库连接放到连接池中，这些数据库连接的数量是由**最小数据库连接数来设定**的。无论这些数据库连接是否被使用，连接池都将一直保证至少拥有这么多的连接数量。连接池的**最大数据库连接数量**限定了这个连接池能占有的最大连接数，当应用程序向连接池请求的连接数超过最大连接数量时，这些请求将被加入到等待队列中。
 
-<center><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/K3atrlExUsi5qY2.png" /></center>
+![123]("https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/K3atrlExUsi5qY2.png")
 
 - **工作原理：**
 
