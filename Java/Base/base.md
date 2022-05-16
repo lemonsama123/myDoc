@@ -307,33 +307,33 @@ $$
 
 ```tex
 \begin{aligned}
-a & =b+c+d \newline
+a & =b+c+d \\
  & =e+f
 \end{aligned}
 ```
 
 $$
 \begin{aligned}
-a & =b+c+d \newline
+a & =b+c+d \\
  & =e+f
 \end{aligned}
 $$
 ```tex
 $$
 \begin{align}
-a&=b+c+d \newline
+a&=b+c+d \\
 &=e+f
 \end{align}
 $$
 ```
 $$
 \begin{align}
-a&=b+c+d \newline
+a&=b+c+d \\
 &=e+f
 \end{align}
 $$
 
-> 上面的两种方式是一样的。注意：在 `MathJax` 中，换行请用 `\newline`，在 `Tex` 中是支持 `\\` 换行的.
+> 上面的两种方式是一样的。注意：在 `MathJax` 中，换行请用 `\\`，在 `Tex` 中是支持 `\\` 换行的.
 
 
 
@@ -342,7 +342,7 @@ $$
 ```tex
 f(x)=
 \begin{cases}
-\sin x, & -π\le x \le π\newline
+\sin x, & -π\le x \le π\\
 0,& \text{其他}
 \end{cases}
 ```
@@ -350,7 +350,7 @@ f(x)=
 $$
 f(x)=
 \begin{cases}
-\sin x, & -π\le x \le π\newline
+\sin x, & -π\le x \le π\\
 0,& \text{其他}
 \end{cases}
 $$
@@ -360,7 +360,7 @@ $$
 ```tex
 $$
 f(x)= \left\lbrace\begin{array}{ll}
-\sin x, & -\pi\le x \le \pi\newline
+\sin x, & -\pi\le x \le \pi\\
 0,& \text{其他}
 \end{array}\right.
 $$
@@ -368,7 +368,7 @@ $$
 
 $$
 f(x)= \left\lbrace\begin{array}{ll}
-\sin x, & -\pi\le x \le \pi\newline
+\sin x, & -\pi\le x \le \pi\\
 0,& \text{其他}
 \end{array}\right.
 $$
@@ -377,49 +377,49 @@ $$
 
 ```tex
 \begin{matrix}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{matrix}
 ```
 
 $$
 \begin{matrix}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{matrix}
 $$
 
 ```tex
 \begin{array}{cccc}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{array}
 ```
 $$
 \begin{array}{cccc}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{array}
 $$
 
 ```tex
 \begin{bmatrix}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{bmatrix}
 ```
@@ -427,10 +427,10 @@ a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 
 $$
 \begin{bmatrix}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{bmatrix}
 $$
@@ -438,20 +438,20 @@ $$
 ```tex
 $$
 \left[\begin{array}{llll}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{array}\right]
 $$
 ```
 $$
 \left[\begin{array}{llll}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{array}\right]
 $$
@@ -459,10 +459,10 @@ $$
 
 ```tex
 \begin{pmatrix}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{pmatrix}
 ```
@@ -471,37 +471,37 @@ a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 
 $$
 \begin{pmatrix}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{pmatrix}
 $$
 ```tex
 \left(\begin{array}{cccc}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{array}\right)
 ```
 $$
 \left(\begin{array}{cccc}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{array}\right)
 $$
 ```tex
 \begin{vmatrix}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{vmatrix}
 ```
@@ -509,30 +509,30 @@ a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 
 $$
 \begin{vmatrix}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{vmatrix}
 $$
 
 ```tex
 \left|\begin{array}{cccc}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{array}\right|
 ```
 
 $$
 \left|\begin{array}{cccc}
-a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \newline
-a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \newline
-a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \newline
-\vdots & \vdots & \vdots & \ddots & \vdots  \newline
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+a_{21} & a_{22} & a_{23} & \cdots & a_{2n} \\
+a_{31} & a_{32} & a_{33} & \cdots & a_{3n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
 a_{n1} & a_{n2} & a_{n3} & \cdots & a_{(n-1)n}
 \end{array}\right|
 $$
@@ -571,9 +571,9 @@ $$
 ```tex
 $$
 \begin{aligned}
-\oint _l \boldsymbol{H} \cdot \mathrm{d} \boldsymbol{l} & = \iint_S \boldsymbol{J} \cdot \mathrm{d} \boldsymbol{S} + \iint_S \frac{\partial \boldsymbol{D}}{\partial t} \cdot {\mathrm d}\boldsymbol{S} \newline
-\oint_l \boldsymbol{E} \cdot \mathrm{d} \boldsymbol{l} & = -\iint_s \frac{\partial \boldsymbol{B}}{\partial t} \cdot \mathrm{d} \boldsymbol{S}\newline
-\oint_S \boldsymbol{B} \cdot \mathrm{d} \boldsymbol{S}& = 0 \newline
+\oint _l \boldsymbol{H} \cdot \mathrm{d} \boldsymbol{l} & = \iint_S \boldsymbol{J} \cdot \mathrm{d} \boldsymbol{S} + \iint_S \frac{\partial \boldsymbol{D}}{\partial t} \cdot {\mathrm d}\boldsymbol{S} \\
+\oint_l \boldsymbol{E} \cdot \mathrm{d} \boldsymbol{l} & = -\iint_s \frac{\partial \boldsymbol{B}}{\partial t} \cdot \mathrm{d} \boldsymbol{S}\\
+\oint_S \boldsymbol{B} \cdot \mathrm{d} \boldsymbol{S}& = 0 \\
 \oint_S \boldsymbol{D} \cdot \mathrm{d} \boldsymbol{S} & = \iiint_V \rho \mathrm{d} V
 \end{aligned}
 $$
@@ -581,27 +581,27 @@ $$
 
 $$
 \begin{aligned}
-\oint _l \boldsymbol{H} \cdot \mathrm{d} \boldsymbol{l} & = \iint_S \boldsymbol{J} \cdot \mathrm{d} \boldsymbol{S} + \iint_S \frac{\partial \boldsymbol{D}}{\partial t} \cdot {\mathrm d}\boldsymbol{S} \newline
-\oint_l \boldsymbol{E} \cdot \mathrm{d} \boldsymbol{l} & = -\iint_s \frac{\partial \boldsymbol{B}}{\partial t} \cdot \mathrm{d} \boldsymbol{S}\newline
-\oint_S \boldsymbol{B} \cdot \mathrm{d} \boldsymbol{S}& = 0 \newline
+\oint _l \boldsymbol{H} \cdot \mathrm{d} \boldsymbol{l} & = \iint_S \boldsymbol{J} \cdot \mathrm{d} \boldsymbol{S} + \iint_S \frac{\partial \boldsymbol{D}}{\partial t} \cdot {\mathrm d}\boldsymbol{S} \\
+\oint_l \boldsymbol{E} \cdot \mathrm{d} \boldsymbol{l} & = -\iint_s \frac{\partial \boldsymbol{B}}{\partial t} \cdot \mathrm{d} \boldsymbol{S}\\
+\oint_S \boldsymbol{B} \cdot \mathrm{d} \boldsymbol{S}& = 0 \\
 \oint_S \boldsymbol{D} \cdot \mathrm{d} \boldsymbol{S} & = \iiint_V \rho \mathrm{d} V
 \end{aligned}
 $$
 
 ```tex
 \begin{aligned}
-\nabla \times \boldsymbol{H} & = \boldsymbol{J} + \frac{\partial \boldsymbol{D}}{\partial t} \newline
-\nabla \times \boldsymbol{E} & = - \frac{\partial \boldsymbol{B}}{\partial t} \newline
-\nabla \cdot \boldsymbol{B} & = 0 \newline
+\nabla \times \boldsymbol{H} & = \boldsymbol{J} + \frac{\partial \boldsymbol{D}}{\partial t} \\
+\nabla \times \boldsymbol{E} & = - \frac{\partial \boldsymbol{B}}{\partial t} \\
+\nabla \cdot \boldsymbol{B} & = 0 \\
 \nabla \cdot \boldsymbol{D} & = \rho
 \end{aligned}
 ```
 
 $$
 \begin{aligned}
-\nabla \times \boldsymbol{H} & = \boldsymbol{J} + \frac{\partial \boldsymbol{D}}{\partial t} \newline
-\nabla \times \boldsymbol{E} & = - \frac{\partial \boldsymbol{B}}{\partial t} \newline
-\nabla \cdot \boldsymbol{B} & = 0 \newline
+\nabla \times \boldsymbol{H} & = \boldsymbol{J} + \frac{\partial \boldsymbol{D}}{\partial t} \\
+\nabla \times \boldsymbol{E} & = - \frac{\partial \boldsymbol{B}}{\partial t} \\
+\nabla \cdot \boldsymbol{B} & = 0 \\
 \nabla \cdot \boldsymbol{D} & = \rho
 \end{aligned}
 $$
@@ -611,11 +611,11 @@ $$
 ```tex
 $$
 \begin{vmatrix}
-1 & 1 & 1 & \cdots & 1 \newline
-x_{1} & x_{2} & x_{3} & \cdots & x_{n} \newline
-x_{1}^2 & x_{2}^2 & x_{3}^2 & \cdots & x_{n}^2 \newline 
-x_{1}^3 & x_{2}^3 & x_{3}^3 & \cdots & x_{n}^3 \newline
-\vdots & \vdots & \vdots & \ddots & \vdots \newline
+1 & 1 & 1 & \cdots & 1 \\
+x_{1} & x_{2} & x_{3} & \cdots & x_{n} \\
+x_{1}^2 & x_{2}^2 & x_{3}^2 & \cdots & x_{n}^2 \\ 
+x_{1}^3 & x_{2}^3 & x_{3}^3 & \cdots & x_{n}^3 \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
 x_{1}^{n-1} & x_2^{n-1} & x_{3}^{n-1} & \cdots & x_n^{n-1} 
 \end{vmatrix} = \prod_{1 \le j \le i \le n}(x_i - x_j)
 $$
@@ -623,11 +623,11 @@ $$
 
 $$
 \begin{vmatrix}
-1 & 1 & 1 & \cdots & 1 \newline
-x_{1} & x_{2} & x_{3} & \cdots & x_{n} \newline
-x_{1}^2 & x_{2}^2 & x_{3}^2 & \cdots & x_{n}^2 \newline 
-x_{1}^3 & x_{2}^3 & x_{3}^3 & \cdots & x_{n}^3 \newline
-\vdots & \vdots & \vdots & \ddots & \vdots \newline
+1 & 1 & 1 & \cdots & 1 \\
+x_{1} & x_{2} & x_{3} & \cdots & x_{n} \\
+x_{1}^2 & x_{2}^2 & x_{3}^2 & \cdots & x_{n}^2 \\ 
+x_{1}^3 & x_{2}^3 & x_{3}^3 & \cdots & x_{n}^3 \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
 x_{1}^{n-1} & x_2^{n-1} & x_{3}^{n-1} & \cdots & x_n^{n-1} 
 \end{vmatrix} = \prod_{1 \le j \le i \le n}(x_i - x_j)
 $$
@@ -657,7 +657,7 @@ $$
 ```tex
 $$
 F(n)= \left\lbrace\begin{array}{ll}
-1, &n \le 2\newline
+1, &n \le 2\\
 F(n-1) + F(n-2),& n \ge 3 
 \end{array}\right.
 $$
@@ -665,7 +665,7 @@ $$
 
 $$
 F(n)= \left\lbrace\begin{array}{ll}
-1, &n \le 2\newline
+1, &n \le 2\\
 F(n-1) + F(n-2),& n \ge 3 
 \end{array}\right.
 $$
