@@ -9,7 +9,7 @@
 
 数据库系统基本构成如下图所示：
 
-![数据库系统基本构成](https://img-blog.csdnimg.cn/img_convert/e21120184e63406526a4e873cacd23f2.png)
+![数据库系统基本构成](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/e21120184e63406526a4e873cacd23f2.png)
 
 ## 什么是元组, 码, 候选码, 主码, 外码, 主属性, 非主属性？
 
