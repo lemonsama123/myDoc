@@ -180,11 +180,11 @@ public class FileTest3 {
 
 - 节点流：直接从数据源或目的地读写数据
 
-![](https://s2.loli.net/2022/01/19/cHeuXdbW65EJfty.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/cHeuXdbW65EJfty.png)
 
 - 处理流：不直接连接到数据源或目的地，而是“连接”在已存 在的流（节点流或处理流）之上，通过对数据的处理为程序提供更为强大的读写功能。
 
-![](https://s2.loli.net/2022/01/19/L3cmH8eO9YGFMJ1.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/L3cmH8eO9YGFMJ1.png)
 
 ### 2.4 IO 流体系
 
@@ -492,7 +492,7 @@ public class FileReaderFileWriterTest {
 
 - 为了提高数据读写的速度，Java API提供了带缓冲功能的流类，在使用这些流类时，会创建一个内部缓冲区数组，缺省使用8192个字节(8Kb)的缓冲区。
 
-![](https://s2.loli.net/2022/01/19/nrol4gbBtQVPGkx.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/nrol4gbBtQVPGkx.png)
 
 - 缓冲流要“套接”在相应的节点流之上，根据数据操作单位可以把缓冲流分为：
    - `BufferedInputStream` 和  `BufferedOutputStream`

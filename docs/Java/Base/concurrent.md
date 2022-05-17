@@ -10,7 +10,7 @@
     - 线程作为调度和执行的单位，每个线程拥有独立的运行栈和程序计数器(pc)，线程切换的开销小
     - 一个进程中的多个线程共享相同的内存单元/内存地址空间，它们从同一堆中分配对象，可以访问相同的变量和对象。这就使得线程间通信更简便、高效。但多个线程操作共享的系统资源可能就会带来安全的隐患 
 
-![image-20210902145805365](https://s2.loli.net/2022/01/18/5rEQy3xXZW1RaLV.png)
+![image-20210902145805365](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/5rEQy3xXZW1RaLV.png)
 
 - 单核CPU和多核CPU的理解
     - 单核CPU，其实是一种假的多线程，因为在一个时间单元内，也只能执行一个线程的任务。例如：虽然有多车道，但是收费站只有一个工作人员在收费，只有收了费才能通过，那么CPU就好比收费人员。如果有某个人不想交钱， 那么收费人员可以把他“挂起”（晾着他，等他想通了，准备好了钱，再去收费）。 但是因为CPU时间单元特别短，因此感觉不出来
@@ -85,9 +85,9 @@ public class ThreadTest  {
 }
 ```
 
-![image-20210902152333907](https://s2.loli.net/2022/01/18/N8f2CaKk9JZQFe1.png)
+![image-20210902152333907](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/N8f2CaKk9JZQFe1.png)
 
-![image-20210902152410028](https://s2.loli.net/2022/01/18/gXYfqNWITnZFs5K.png)
+![image-20210902152410028](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/gXYfqNWITnZFs5K.png)
 
 - 注意点：
 
@@ -168,7 +168,7 @@ public class ThreadTest  {
 
     - 时间片
 
-    ![image-20210902160336865](https://s2.loli.net/2022/01/18/YoyCr76PMz9ph2B.png)
+    ![image-20210902160336865](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/YoyCr76PMz9ph2B.png)
 
     - 抢占式：高优先级的线程抢占CPU
 
@@ -216,7 +216,7 @@ Java中的线程分为两类：一种是守护线程，一种是用户线程
     - 阻塞：在某种特殊情况下，被人为挂起或执行输入输出操作时，让出CPU并临时中止自己的执行，进入阻塞状态
     - 死亡：线程完成了它的全部工作或线程被提前强制性地中止或出现异常导致结束
 
-![image-20210904225006584](https://s2.loli.net/2022/01/18/q6yEic2hUYwmPv3.png)
+![image-20210904225006584](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/q6yEic2hUYwmPv3.png)
 
 
 
@@ -226,7 +226,7 @@ Java中的线程分为两类：一种是守护线程，一种是用户线程
     - 多个线程执行的不确定性引起执行结果的不稳定
     - 多个线程 对 账本 的 共享，会造成操作的不完整性，会破坏数据
 
-![image-20210904225347216](https://s2.loli.net/2022/01/18/1ryZL6BoMH4KNkE.png)
+![image-20210904225347216](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/1ryZL6BoMH4KNkE.png)
 
 
 
@@ -271,9 +271,9 @@ class TicketDemo {
 }
 ```
 
-![image-20210912110032786](https://s2.loli.net/2022/01/18/jVS9kD6NtJoQyWf.png)
+![image-20210912110032786](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/jVS9kD6NtJoQyWf.png)
 
-![image-20210912110047356](https://s2.loli.net/2022/01/18/vwUJrXh6xLQdyNt.png)
+![image-20210912110047356](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/vwUJrXh6xLQdyNt.png)
 
 
 
@@ -724,7 +724,7 @@ class Consumer implements Runnable {    //消费者
 说明：线程作为调度和执行的单位，每个线程拥独立的运行栈和程序计数器(pc)，线程切换的开销小。
 ```
 
-![image-20210912171453809](https://s2.loli.net/2022/01/18/PdXGN7MIoQOfsnp.png)
+![image-20210912171453809](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/PdXGN7MIoQOfsnp.png)
 
 
 
@@ -732,7 +732,7 @@ class Consumer implements Runnable {    //消费者
 
 内存结构：
 
-![image-20210912171525424](https://s2.loli.net/2022/01/18/huz4KH9E8roFxQW.png)
+![image-20210912171525424](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/huz4KH9E8roFxQW.png)
 
 ```java
 进程可以细化为多个线程。
@@ -1050,9 +1050,9 @@ public static void main(String[] args) {
 
 
 
-![image-20210912172211964](https://s2.loli.net/2022/01/18/EKeRAlxzh5cbQtB.png)
+![image-20210912172211964](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/EKeRAlxzh5cbQtB.png)
 
-![](https://s2.loli.net/2022/01/18/MK3JqmxLuOilkUv.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/MK3JqmxLuOilkUv.png)
 
 
 
