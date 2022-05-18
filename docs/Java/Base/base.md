@@ -190,12 +190,12 @@ $$
 ## 积分符号
 
 ```tex
-$$\int,\iint,\iiint,\oint$$
+$$\int,\iint,\iiint,\oint \oiint \oiiint$$
 ```
 
 
 $$
-\int,\iint,\iiint,\oint
+\int,\iint,\iiint,\oint \oiint \oiiint
 $$
 
 ```tex
