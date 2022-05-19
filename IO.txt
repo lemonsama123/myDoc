@@ -2282,3 +2282,11 @@ $\int _a^b f(x)\mathrm{d}x = F(b) - F(a)$$
 $$
 \int _a^b f(x)\mathrm{d}x = F(b) - F(a)
 $$
+
+```echarts
+{
+  "height": 260,
+  "option": {
+  }
+}
+```                                                                                                               .
