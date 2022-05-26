@@ -41,11 +41,11 @@
 ## JavaWeb
 
 * **前端基础**
-  * [HTML&CSS](docs/Database/MySQLInstall.md)
-  * [JS](docs/Database/MySQLNote.md)
-  * [jQuery](docs/C/C-Code.md)
-  * [Vue](docs/C/C-Code.md)
-* [**JavaWeb**](docs/Database/DBBase.md)
+  * [HTML&CSS](docs/Java/JavaWeb/HTML&CSS.md)
+  * [JS](docs/Java/JavaWeb/JS.md)
+  * [jQuery](docs/Java/JavaWeb/jQuery.md)
+  * [Vue](docs/Java/JavaWeb/Vue.md)
+* [**JavaWeb**](docs/Java/JavaWeb/JavaWeb.md)
 
 ## 开发框架
 
