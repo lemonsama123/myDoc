@@ -2,7 +2,6 @@
 
 ## 后端（Java） & 前端
 
-- 记录一路走来学习的计算机专业知识，构建完整的全栈工程师路线。
 
 <!-- <img src="https://img.shields.io/badge/version-v2.0.0-green.svg" data-origin="https://img.shields.io/badge/version-v2.0.0-green.svg" alt=""> 
 <img src="https://img.shields.io/github/stars/wugenqiang/NoteBook" data-origin="https://img.shields.io/github/stars/wugenqiang/NoteBook" alt=""> 
@@ -29,6 +28,3 @@
 
 <!-- 背景色 -->
 ![color](#fff)
-
-
-

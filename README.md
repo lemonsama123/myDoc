@@ -85,7 +85,7 @@
 * [**数学基础**](C/C-Code.md)
 * [**数据结构**](C/C-Code.md)
 * [**算法**](C/C-Code.md)
-* [**数学公式**](docs/Math/Math.md)
+<!-- * [**数学公式**](docs/Math/Math.md) -->
 
 # 开发工具
 
