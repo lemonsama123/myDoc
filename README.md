@@ -76,7 +76,7 @@
 ## 操作系统
 
 * **Linux**
-  * [Linux 学习笔记](C/C-Code.md)
+  * [Linux 学习笔记](docs/Linux/linux.md)
   * [Linux 常用操作](C/C-Code.md)
   * [Linux 常用软件安装](C/C-Code.md)
 
