@@ -111,7 +111,7 @@
 
 点击完成。然后在刚刚创建的虚拟机上右击，点击设置，会看到如下界面：
 
-![image-20220717112625973](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220717112625973.png)
+![image-20220717112625973](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717112625973.png)
 
 点击 **CD/DVD**，然后点击**使用 ISO 映像文件**，点击浏览，选择刚刚下载好的映像文件，点击确定即可。
 
@@ -148,6 +148,48 @@
 点击 `+` 号，选择挂载点为 `/boot` 期望容量为 1G，然后点击添加挂载点
 
 ![image-20220717114053793](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717114053793.png)
+
+设备类型选择标准分区，文件系统选择 `ext4`。
+
+![image-20220717114307084](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717114307084.png)
+
+然后再添加一个 swap 分区，大小为 2G（一般跟内存大小相同）。
+
+![image-20220717114402464](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717114402464.png)
+
+swap 分区的设备类型选择标准分区，文件系统选择 `swap`。
+
+![image-20220717114522716](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717114522716.png)
+
+然后再添加一个**根分区**，期望容量空着，系统会自动将剩下的容量分配给这个分区。
+
+![image-20220717114651077](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717114651077.png)
+
+根分区的设备类型为标准分区，文件系统为 `ext4`。
+
+![image-20220717114821852](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717114821852.png)
+
+分完区后点击完成，会看到下面的提示信息，点击接收更改即可。
+
+![image-20220717114919744](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717114919744.png)
+
+回到下面这个界面之后点击开始安装即可。
+
+![image-20220717115002867](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717115002867.png)
+
+这个时候我们可以进行 ROOT 密码设置和创建用操作，请在这个为 root 用户设置一个密码。
+
+![image-20220717115036716](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717115036716.png)
+
+加载完成之后点击重启。
+
+![image-20220717115909083](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717115909083.png)
+
+这里要接收许可证，然后点击完成配置。
+
+![image-20220717120007186](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717120007186.png)
+
+安装完毕。
 
 ## VM（VIM）和 Linux 目录结构
 
