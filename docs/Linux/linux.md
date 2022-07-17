@@ -85,6 +85,70 @@
 
 下载好了之后开始安装。
 
+点击左上角`文件`，然后点击`新建虚拟机`，会看到如下界面：
+
+![image-20220717111905967](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717111905967.png)
+
+选择`典型`即可，点击下一步：
+
+![image-20220717112007689](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717112007689.png)
+
+选择**稍后安装操作系统**，点击下一步：
+
+![image-20220717112055178](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717112055178.png)
+
+客户机操作系统选择 `Linux`，版本选择 `Red Hat Enterprise Linux 7 64位`，点击下一步：
+
+![image-20220717112215545](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717112215545.png)
+
+这里可以给虚拟机起个名字，并选择虚拟机文件存储位置，建议放在 C 盘以外的地方，点击下一步：
+
+![image-20220717112349359](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717112349359.png)
+
+磁盘大小 20GB 即可，选择**将虚拟磁盘拆分多个文件**，点击下一步：
+
+![image-20220717112515317](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717112515317.png)
+
+点击完成。然后在刚刚创建的虚拟机上右击，点击设置，会看到如下界面：
+
+![image-20220717112625973](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220717112625973.png)
+
+点击 **CD/DVD**，然后点击**使用 ISO 映像文件**，点击浏览，选择刚刚下载好的映像文件，点击确定即可。
+
+![image-20220717112655893](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717112655893.png)
+
+到了这里，就可以开机了。点击开启此虚拟机，然后等待：
+
+![image-20220717112945352](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717112945352.png)
+
+光标选择第一个（Install CentOS 7），等待，会进入如下界面：
+
+![image-20220717113151646](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717113151646.png)
+
+选择中文，点击<kbd>继续</kbd>：
+
+![image-20220717113301654](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717113301654.png)
+
+点击**软件选择**，会看到如下界面，视情况选择**最小安装**或者**GNOME桌面**，对于初学者来说选择**GNOME桌面**好一点。然后点击完成。
+
+![image-20220717113406705](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717113406705.png)
+
+点击完成之后需要一定时间的加载，请耐心等待，不要乱动。然后点击**安装位置**
+
+![image-20220717113704339](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717113704339.png)
+
+会看到如下界面：
+
+![image-20220717113852468](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717113852468.png)
+
+选择我要配置分区，然后点击完成，会进入如下界面：
+
+![image-20220717113931254](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717113931254.png)
+
+点击 `+` 号，选择挂载点为 `/boot` 期望容量为 1G，然后点击添加挂载点
+
+![image-20220717114053793](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/8919/image-20220717114053793.png)
+
 ## VM（VIM）和 Linux 目录结构
 
 ## 远程登录
